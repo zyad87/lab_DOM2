@@ -1,8 +1,6 @@
 let trin = document.getElementsByClassName('trin')[0];
 console.log(trin);
 
-colors = ['red', 'black', 'blue', 'yellow', 'green', 'purple', 'pink'];
-
 setInterval(() => {
   let positionx = Math.random() * 50;
   let positiony = Math.random() * 50;
